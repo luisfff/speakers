@@ -1,7 +1,7 @@
 
 const axios = require("axios");
 const mongo = require("mongodb").MongoClient;
-const uuid = require("uuid");
+const uuidv4 = require('uuid/v4');
 
 
 module.exports = function(context, req) {
@@ -57,7 +57,7 @@ function publishToEventGrid(speaker) {
   let data = speaker;
   let events = [
     {
-      id: uuid(),
+      id: uuidv4(),
       subject: "New Speaker Image Created",
       dataVersion: "1.0",
       eventType: "Microsoft.MockPublisher.TestEvent",
