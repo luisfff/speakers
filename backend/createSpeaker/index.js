@@ -47,13 +47,11 @@ function response(client, context) {
   };
 }
 
-//Helper function to build the respond
 //Helper function to publish event to eventGrid
 function publishToEventGrid(speaker) {
   console.log("in publishToEventGrid function");
   const topicKey = process.env.eventGrid_TopicKey
-  const topicHostName =
-    "https://acloudguruluis.northeurope-1.eventgrid.azure.net/api/events";
+  const topicHostName ="https://acloudguruluis.northeurope-1.eventgrid.azure.net/api/events";
   let data = speaker;
   let events = [
     {

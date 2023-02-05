@@ -10,7 +10,7 @@ Azure Functions Core Tools
 ## Getting Started
 Clone the repository
 Install the dependencies: `npm install`
-Start the Functions host: `func start --typescript --port 5001`
+Start the Backend Functions host: `func start --javascript --port 5001`
 
 ## Available Functions
 
