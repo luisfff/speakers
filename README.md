@@ -8,7 +8,7 @@ Node.js
 Azure Functions Core Tools
 
 ## Getting Started
-Clone the repository: `https://github.com/luisfff/speakers`
+Clone the repository: https://github.com/luisfff/speakers
 
 Install the dependencies: `npm install`
 
