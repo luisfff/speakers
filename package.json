@@ -1,19 +1,18 @@
 {
   "name": "speakerapp",
   "version": "0.0.1",
-  "description": "A cloud Guru course",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luisfff/aclouldguru-serverless-azure.git"
+    "url": "git+https://github.com/luisfff/speakers.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/luisfff/aclouldguru-serverless-azure/issues"
+    "url": "https://github.com/luisfff/speakers/issues"
   },
-  "homepage": "https://github.com/luisfff/aclouldguru-serverless-azure#readme"
+  "homepage": "https://github.com/luisfff/speakers#readme"
 }

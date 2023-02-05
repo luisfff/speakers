@@ -18,7 +18,7 @@ module.exports = function(context, req) {
         context.log(client);
         let send = response(client, context);
         if (err) send(500, err.message);
-        let db = client.db("acloudguruluis");
+        let db = client.db("speakerDB");
         db.collection("speakers").insertOne(speakerData, (err, speakerData) => {
           if (err) send(500, err.message);
 
@@ -51,7 +51,7 @@ function response(client, context) {
 function publishToEventGrid(speaker) {
   console.log("in publishToEventGrid function");
   const topicKey = process.env.eventGrid_TopicKey
-  const topicHostName ="https://acloudguruluis.northeurope-1.eventgrid.azure.net/api/events";
+  const topicHostName ="https://speakerDB.northeurope-1.eventgrid.azure.net/api/events";
   let data = speaker;
   let events = [
     {

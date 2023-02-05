@@ -10,7 +10,7 @@ module.exports = function(context, req) {
       (err, client) => {
         let send = response(client, context);
         if (err) send(500, err.message);
-        let db = client.db("acloudguruluis");
+        let db = client.db("speakerDB");
         let speakerId = parseInt(req.query.id);
         let query2 = { id: speakerId };
         db.collection("speakers").findOne(query2, (err, result) => {

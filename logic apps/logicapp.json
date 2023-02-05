@@ -142,7 +142,7 @@
                                     "endpointUrl": "@{listCallbackUrl()}"
                                 }
                             },
-                            "topic": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/acloudguru-serverless-course/providers/Microsoft.EventGrid/topics/acloudguruluis"
+                            "topic": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/serverless-speakers/providers/Microsoft.EventGrid/topics/speakerDB"
                         }
                     },
                     "host": {
@@ -164,22 +164,22 @@
         "$connections": {
             "value": {
                 "azureblob": {
-                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/acloudguru-serverless-course/providers/Microsoft.Web/connections/azureblob",
+                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/serverless-speakers/providers/Microsoft.Web/connections/azureblob",
                     "connectionName": "azureblob",
                     "id": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/providers/Microsoft.Web/locations/northeurope/managedApis/azureblob"
                 },
                 "azureeventgrid": {
-                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/acloudguru-serverless-course/providers/Microsoft.Web/connections/azureeventgrid",
+                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/serverless-speakers/providers/Microsoft.Web/connections/azureeventgrid",
                     "connectionName": "azureeventgrid",
                     "id": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/providers/Microsoft.Web/locations/northeurope/managedApis/azureeventgrid"
                 },
                 "cognitiveservicescomputervision": {
-                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/acloudguru-serverless-course/providers/Microsoft.Web/connections/cognitiveservicescomputervision",
+                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/serverless-speakers/providers/Microsoft.Web/connections/cognitiveservicescomputervision",
                     "connectionName": "cognitiveservicescomputervision",
                     "id": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/providers/Microsoft.Web/locations/northeurope/managedApis/cognitiveservicescomputervision"
                 },
                 "gmail": {
-                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/acloudguru-serverless-course/providers/Microsoft.Web/connections/gmail",
+                    "connectionId": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/resourceGroups/serverless-speakers/providers/Microsoft.Web/connections/gmail",
                     "connectionName": "gmail",
                     "id": "/subscriptions/d456e408-7192-4138-b858-cad6d4dadc9f/providers/Microsoft.Web/locations/northeurope/managedApis/gmail"
                 }

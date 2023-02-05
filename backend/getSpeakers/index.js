@@ -8,7 +8,7 @@ module.exports = function(context, req) {
     (err, client) => {
       let send = response(client, context);
       if (err) send(500, err.message);
-      let db = client.db("acloudguruluis");
+      let db = client.db("speakerDB");
       db.collection("speakers")
         .find({})
         .toArray((err, result) => {
