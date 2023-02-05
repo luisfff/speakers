@@ -17,7 +17,11 @@ Start the Backend Functions host: `func start --javascript --port 5001`
 The following Functions are available in this project:
 
 createSpeaker: [POST] http://localhost:5001/api/createSpeaker
+
 deleteSpeaker: [DELETE] http://localhost:5001/api/deleteSpeaker
+
 getSpeaker: [GET] http://localhost:5001/api/getSpeaker
+
 getSpeakers: [GET] http://localhost:5001/api/getSpeakers
+
 updateSpeaker: [PUT] http://localhost:5001/api/updateSpeaker
