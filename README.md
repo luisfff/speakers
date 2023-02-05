@@ -8,8 +8,10 @@ Node.js
 Azure Functions Core Tools
 
 ## Getting Started
-Clone the repository
+Clone the repository: `https://github.com/luisfff/speakers`
+
 Install the dependencies: `npm install`
+
 Start the Backend Functions host: `func start --javascript --port 5001`
 
 ## Available Functions
